@@ -1,0 +1,120 @@
+/* tailwind css  */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.dancing {
+  font-family: "Dancing Script", cursive;
+}
+
+.playfair {
+  font-family: "Playfair Display", serif;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #F4F6F9;
+}
+
+/* custom sidebar scroll bar  */
+
+/* Initially hide the scrollbar */
+.sidebar-nav::-webkit-scrollbar {
+  width: 0;
+  /* Set width to 0 to hide the scrollbar */
+  height: 0;
+  /* For horizontal scrollbar, if any */
+}
+
+/* On hover or scroll, show the scrollbar */
+.sidebar-nav:hover::-webkit-scrollbar {
+  width: 4px;
+  /* Adjust the width when visible */
+  height: 4px;
+  /* For horizontal scrollbar, if any */
+}
+
+/* Track */
+.sidebar-nav::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+/* Handle */
+.sidebar-nav::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.sidebar-nav::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* custom sidebar scroll bar  */
+
+
+/* input type number disable arrow  */
+/* Hide the arrows for number input in Chrome, Safari, Edge, Opera */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Hide the arrows for number input in Firefox */
+/* input[type=number] {
+  -moz-appearance: textfield;
+} */
+
+/* input type number disable arrow  */
+
+
+
+/* Sidebar content remains visible */
+.sidebar-content {
+  scrollbar-width: none;
+  /* For Firefox */
+}
+
+.sidebar-content::-webkit-scrollbar {
+  width: 0;
+  /* For Webkit (Chrome, Safari) */
+  transition: width 0.3s ease;
+  /* Add transition for smooth scrollbar visibility */
+}
+
+/* Show scrollbar only on hover */
+.navbar-container:hover .sidebar-content::-webkit-scrollbar {
+  width: 8px;
+  /* Show the scrollbar when hovered */
+}
+
+.navbar-container:hover .sidebar-content {
+  scrollbar-width: thin;
+  /* Show scrollbar for Firefox on hover */
+}
+
+/* Customize scrollbar thumb */
+.sidebar-content::-webkit-scrollbar-thumb {
+  background-color: #888;
+  /* Scrollbar color */
+  border-radius: 10px;
+}
+
+.sidebar-content::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+  /* Darker scrollbar color on hover */
+}
+
