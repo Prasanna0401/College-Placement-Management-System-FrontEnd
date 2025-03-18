@@ -60,7 +60,7 @@ The **College Placement Management System** is a web application designed to str
 ## Installation
 1. Clone the project
    ```bash
-   https://github.com/Prasanna0401/College-Placement-Management-System-Front-End.git
+   https://github.com/Prasanna0401/College-Placement-Management-System-FrontEnd.git
    ``` 
 2. Go to the project directory
    ```bash

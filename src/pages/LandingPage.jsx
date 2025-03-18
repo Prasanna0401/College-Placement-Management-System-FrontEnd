@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import LandingNavbar from '../components/LandingPages/LandNavbar';
 import LandingHeroPage from '../components/LandingPages/LandHeroPage';
 import LandingAbout from '../components/LandingPages/LandAbout';

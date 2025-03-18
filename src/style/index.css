@@ -81,7 +81,6 @@ input[type=number]::-webkit-outer-spin-button {
 /* input type number disable arrow  */
 
 
-
 /* Sidebar content remains visible */
 .sidebar-content {
   scrollbar-width: none;
@@ -117,4 +116,3 @@ input[type=number]::-webkit-outer-spin-button {
   background-color: #555;
   /* Darker scrollbar color on hover */
 }
-
